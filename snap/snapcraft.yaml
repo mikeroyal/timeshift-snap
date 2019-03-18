@@ -1,4 +1,5 @@
 name: timeshift
+version: 19.01
 summary: System restore tool. 
 description: A system restore tool for Linux. 
   
@@ -47,7 +48,7 @@ timeshift:
         -X 'github.com/teejee2008/timeshift/version.Version=$(git describe --tags --abbrev=0)'" \
         -a -installsuffix cgo -o $SNAPCRAFT_PART_INSTALL/bin/timeshift
     build-snaps:
-      - vala
+      - 
     build-packages:
       - git
       - sed
